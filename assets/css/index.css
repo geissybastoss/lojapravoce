@@ -44,6 +44,7 @@ body {
     width: 600px;
 }
 
+
 .container {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -59,6 +60,11 @@ body {
 }
 
 .container2 h2 {
+    text-align: center;
+    color:rgba(237, 150, 208, 0.904)
+}
+
+.container3 h2 {
     text-align: center;
     color:rgba(237, 150, 208, 0.904)
 }
@@ -81,16 +87,16 @@ body {
     width: 5%; /* Ajustar largura das setas */
 }
 
-.footer {
-    background-color:rgba(237, 150, 208, 0.904);
-    color: white;
-    text-align: center;
+@media (max-width: 768px) {
+    #carouselExample {
+        width: 100%;
+    }
 }
-.footer a {
-    color: #f8f9fa;
-    text-decoration: none;
-    margin: 0 0.25rem; /* Margem reduzida entre links */
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions {
+        width: 100%;
+        height: auto;
+    }
 }
-.footer a:hover {
-    text-decoration: underline;
-}
+
