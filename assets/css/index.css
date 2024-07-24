@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(237, 150, 208, 0.904);
+}
+
+.navbar-brand {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px; /* Ajuste conforme necessário */
+    border: 1px solid white;
+    border-radius: 25px; /* Valor alto para bordas arredondadas */
+    color:rgba(237, 150, 208, 0.904) !important; 
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Cor branca */
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.sociais {
+    display: flex;
+    gap: 10px;
+    margin-right: 2rem; /* Margem de dois dedos */
+}
+
+.sociais a {
+    color: white;
+    text-decoration: none;
+}
+
+.sociais svg {
+    width: 20px;
+    height: 20px;
+}
+
+#carouselExample{
+    width: 600px;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.container2 h2 {
+    text-align: center;
+    color:rgba(237, 150, 208, 0.904)
+}
+
+#btnCard{
+    background-color: rgba(237, 150, 208, 0.904);
+    color: white;
+    text-decoration: none;
+}
+
+.container h5 {
+    color: rgba(237, 150, 208, 0.904);
+}
+
+
+.card {
+    margin: 0 5px; /* Espaço pequeno entre os cards */
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Ajustar largura das setas */
+}
+
+.footer {
+    background-color:rgba(237, 150, 208, 0.904);
+    color: white;
+    text-align: center;
+}
+.footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 0.25rem; /* Margem reduzida entre links */
+}
+.footer a:hover {
+    text-decoration: underline;
+}
