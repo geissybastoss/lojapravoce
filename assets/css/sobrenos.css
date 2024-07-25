@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* navbar */
+
 .navbar {
     background-color: rgba(237, 150, 208, 0.904);
 }
@@ -40,17 +42,12 @@ body {
     height: 20px;
 }
 
-#carouselExample{
-    width: 600px;
+/* footer */
+.container h5 {
+    color: rgba(237, 150, 208, 0.904);
 }
-
 
 .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.container2 {
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -59,45 +56,35 @@ body {
     text-align: justify;
 }
 
-.container2 h2 {
-    text-align: center;
-    color:rgba(237, 150, 208, 0.904)
-}
-
-.container3 h2 {
-    text-align: center;
-    color:rgba(237, 150, 208, 0.904)
-}
-
-#btnCard{
-    background-color: rgba(237, 150, 208, 0.904);
-    color: white;
-    text-decoration: none;
-}
-
-.container h5 {
+.card h5 {
     color: rgba(237, 150, 208, 0.904);
 }
 
-
-.card {
-    margin: 0 5px; /* Espaço pequeno entre os cards */
+.card-group .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.carousel-control-prev, .carousel-control-next {
-    width: 5%; /* Ajustar largura das setas */
+
+.card-group .card .card-body {
+    width: 100%;
 }
 
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.carousel-item p {
+    margin-top: 1rem;
+}
 @media (max-width: 768px) {
-    #carouselExample {
-        width: 100%;
+    .carousel-item img {
+        height: 300px;
+        object-fit: cover;
     }
 }
 
-@media (max-width: 768px) {
-    #carouselExampleCaptions {
-        width: 100%;
-        height: auto;
-    }
+#descrition h5 {
+    text-align: center;
 }
-
-
