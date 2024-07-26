@@ -114,6 +114,10 @@ footer li{
     text-align: center;
 }
 
+footer svg {
+    text-align: center;
+}
+
 /* carrossel */
 
 #wrapper, #wrapper2  {
