@@ -43,6 +43,19 @@ body {
 }
 
 /* footer */
+
+footer h5{
+    text-align: center;
+}
+
+footer p {
+    text-align: justify;
+}
+
+footer li{
+    text-align: center;
+}
+
 .container h5 {
     color: rgba(237, 150, 208, 0.904);
 }
@@ -52,9 +65,6 @@ body {
     padding-right: 2rem;
 }
 
-.text-justify {
-    text-align: justify;
-}
 
 .card h5 {
     color: rgba(237, 150, 208, 0.904);
@@ -71,20 +81,38 @@ body {
     width: 100%;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: auto;
+
+.centered-hr {
+    width: 50%; /* Define a largura da linha */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem vertical */
+    border: none; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background: linear-gradient(to right, #e0e0e0, #000, #e0e0e0); /* Gradiente para o efeito 3D */
 }
-.carousel-item p {
-    margin-top: 1rem;
+
+
+h5 {
+    text-align: center;    
 }
+
 @media (max-width: 768px) {
-    .carousel-item img {
-        height: 300px;
-        object-fit: cover;
+    #descrition img {
+        width: 100%;
+        height: auto;
     }
 }
 
-#descrition h5 {
-    text-align: center;
+p {
+    text-align: justify;
 }
+
+.text-end {
+    text-align: center !important;
+    margin-top: 15px;
+}
+
+.text-start {
+    text-align: center !important;
+    margin-bottom: 15px;
+}
+
