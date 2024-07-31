@@ -42,10 +42,9 @@ body {
     height: 20px;
 }
 
-/* footer */
-
 footer h5{
     text-align: center;
+    color:rgba(237, 150, 208, 0.904) ;
 }
 
 footer p {
@@ -56,8 +55,69 @@ footer li{
     text-align: center;
 }
 
+footer svg {
+    text-align: center;
+}
 
-.container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+
+/* Container dos cards */
+.card1-container, .card2-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 1rem; /* Espaço entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem a linha se necessário */
+}
+
+/* Estilo dos cards */
+.card1, .card2 {
+    background: whitesmoke;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px; /* Ajusta a largura máxima dos cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center; /* Centraliza o texto dentro do card */
+}
+
+/* Efeito de hover nos cards */
+.card1:hover, .card2:hover {
+    transform: translateY(-10px); /* Eleva o card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+/* Título do card */
+.card1 h3, .card2 h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Descrição ou detalhes adicionais */
+.card1 p, .card2 p {
+    color: #666;
+    margin: 1rem 0;
+}
+
+/* Botões dentro do card */
+.card-buttons, .card2-buttons {
+    display: flex;
+    gap: 0.5rem; /* Espaço entre os botões */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-top: 1rem;
+}
+
+.btn {
+    background: rgba(237, 150, 208, 0.904) !important;
+    color: white !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    flex: 1; /* Permite que os botões ocupem o mesmo espaço */
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(237, 150, 208, 0.7) !important;
 }

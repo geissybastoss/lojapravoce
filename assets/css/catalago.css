@@ -42,10 +42,9 @@ body {
     height: 20px;
 }
 
-/* footer */
-
 footer h5{
     text-align: center;
+    color:rgba(237, 150, 208, 0.904) ;
 }
 
 footer p {
@@ -53,6 +52,10 @@ footer p {
 }
 
 footer li{
+    text-align: center;
+}
+
+footer svg {
     text-align: center;
 }
 
